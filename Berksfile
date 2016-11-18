@@ -1,4 +1,4 @@
-source 'https://api.berkshelf.com'
+source :chef_server
 metadata
 
 group :integration do
