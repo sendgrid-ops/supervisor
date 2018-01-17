@@ -12,3 +12,5 @@ depends "python"
 %w{ ubuntu debian }.each do |os|
   supports os
 end
+
+chef_version '>= 12.6'
